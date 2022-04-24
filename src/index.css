@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link,.nav{
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  border-radius: 30px;
+  background-color: red;
+}
+
+.nav:hover{
+  border-radius: 10px;
+  background-color: red;
+}
+.nav-link.active,.nav.active{
+  background-color: chartreuse;
+  border-radius: 10px;
+}
+
+.img{
+  height: 300px;
+  width: 300px;
+}
+
+
+/* ANIMATION IN CSS */
+
+#todo {
+  background-color: aqua;
+  animation-name: todo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes todo {
+  from {background-color:aqua}
+  to {background-color: yellow;}
+}
+
+/* 
+Animation shortland:-
+
+animation-name
+animation-duration
+animation-timing-function:-ease,linear,ease-in,ease-out,ease-in-out,cubic-bezier(n,n,n)
+animation-delay
+
+animation-iteration-count
+
+animation-direction:-normal,reverse,alternate,alternate-reverse
+
+animation-fill-mode:-none,forward,backward,both
+
+
+animation
+@keyframe */
+
+
+ .day{
+  background-color: red;
+}
+.night{
+  background-color: green;
+} 
+
+.weather{
+  background-color:blue;
+}
+
+.img img{
+  height:140px;
+  width:140px;
+}
+
+.calculator div button:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.calculator div button{
+  width: 80px;
+}

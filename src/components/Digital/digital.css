@@ -1,0 +1,83 @@
+.animated{
+    width:250px;
+    height:150px;
+    display:flex;
+    border:1px solid;
+}
+
+.first{
+    width:50px;
+    height:150px;
+    background-color:red;
+    animation-name:mymove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mymove {
+    0%{
+        height:150px;
+    }
+    20%{
+        height: 60px;
+    }
+    30%{
+        height: 50px;
+    }
+    100%{
+        height: 1px;
+    }
+}
+
+.second{
+    width:50px;
+    height:150px;
+    background-color:green;
+    animation-name:mymovesecond;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes mymovesecond 
+{
+    0%{
+        height:1px;
+    }
+    20%{
+        height: 50px;
+    }
+    30%{
+        height: 60px;
+    }
+    100%{
+        height: 150px;
+    }
+}
+
+.third{
+    width:50px;
+    height:150px;
+    background-color:skyblue;
+    animation-name:mymovethird;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mymovethird {
+    0%{
+        height:1px;
+    }
+    20%{
+        height: 50px;
+    }
+    30%{
+        height: 60px;
+    }
+    100%{
+        height: 150px;
+    }
+}
